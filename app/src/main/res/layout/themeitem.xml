@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/linear2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:layout_margin="10dp"
+        android:background="@android:color/transparent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+        <LinearLayout
+            android:id="@+id/linear5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:id="@+id/linear4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="10dp"
+                android:padding="8dp"
+                android:background="#000000"
+                android:orientation="horizontal" />
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="10dp"
+                android:padding="8dp"
+                android:background="#FFFFFF"
+                android:orientation="horizontal" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/linear6"
+            android:layout_width="70dp"
+            android:layout_height="50dp"
+            android:padding="8dp"
+            android:background="@android:color/transparent"
+            android:orientation="horizontal" />
+    </LinearLayout>
+</LinearLayout>

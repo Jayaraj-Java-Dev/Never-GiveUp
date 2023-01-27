@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "280417077712",
+    "firebase_url": "https://crazy-chat-7-default-rtdb.firebaseio.com",
+    "project_id": "crazy-chat-7",
+    "storage_bucket": "crazy-chat-7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280417077712:android:9640053d880db1cd1e11d5",
+        "android_client_info": {
+          "package_name": "com.example.fluttest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280417077712-g7cl6f8s4hputhrj14oia1qcasq5bne9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADtZRIxbhuxnjKoRzGjnEgl1d3U_iwsrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280417077712-g7cl6f8s4hputhrj14oia1qcasq5bne9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:280417077712:android:a7da40739ff71e141e11d5",
+        "android_client_info": {
+          "package_name": "com.jayaraj.CrazyChat7"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "280417077712-ja3n4b08cuoiohtjur8m8qkds7iueeqq.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.jayaraj.CrazyChat7",
+            "certificate_hash": "b56861187e436feb24561f705711a38a24673627"
+          }
+        },
+        {
+          "client_id": "280417077712-g7cl6f8s4hputhrj14oia1qcasq5bne9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyADtZRIxbhuxnjKoRzGjnEgl1d3U_iwsrc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "280417077712-g7cl6f8s4hputhrj14oia1qcasq5bne9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

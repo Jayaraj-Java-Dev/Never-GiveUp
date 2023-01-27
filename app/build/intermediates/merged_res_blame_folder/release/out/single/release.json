@@ -1,0 +1,282 @@
+[
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_add_user_chat.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\add_user_chat.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_hevo_team_5_2.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\hevo_team_5_2.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_textfullview.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\textfullview.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_logo_trans.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\logo_trans.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_emj.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\emj.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_audioview.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\audioview.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_design.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\design.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_viewfile.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\viewfile.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_default_profile.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\default_profile.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_multi_picker.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\multi_picker.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_view_pager.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\view_pager.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_settings_activity.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\settings_activity.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_chat_fragment.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\chat_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_chathome.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\chathome.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_fabsviewfilecus.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\fabsviewfilecus.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_themeitem.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\themeitem.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_hevo_team_1.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\hevo_team_1.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_activity_theme.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\activity_theme.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_bbnk.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\bbnk.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_activity_chat_home_profile.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\activity_chat_home_profile.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_chatstatus_fragment.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\chatstatus_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_play_button.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\play_button.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_messagecus.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\messagecus.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_hevo_team_2.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\hevo_team_2.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_bluetick.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\bluetick.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_upload_time.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\upload_time.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_item.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\item.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_privacy.webp.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\privacy.webp"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_user.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\user.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_introcus.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\introcus.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_im1.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\im1.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_photoedit.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\photoedit.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_main.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_privacy_policy_icon.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\privacy_policy_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_otp_login.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\otp_login.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_activity_developer.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\activity_developer.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_hevo_team_3.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\hevo_team_3.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_chatuserlist.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\chatuserlist.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_ic_check_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\ic_check_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_viewfilecus.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\viewfilecus.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_app_icon.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_fullydesignedbynextgendesigns.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\fullydesignedbynextgendesigns.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_intro.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\intro.xml"
+    },
+    {
+        "merged": "com.jayaraj.CrazyChat7.app-merged_res-47:/layout_activity_developer.xml.flat",
+        "source": "com.jayaraj.CrazyChat7.app-main-48:/layout/activity_developer.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_menu.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_tabcus.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\tabcus.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_grid_item.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\grid_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_like.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\like.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_imgfull.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\imgfull.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_userprofile.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\userprofile.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_chats_fragment.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\chats_fragment.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_fragment_friends.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\fragment_friends.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_ic_folder.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\ic_folder.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_ic_play_arrow_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\ic_play_arrow_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_singletick.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\singletick.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_default_image.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\default_image.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_home.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\home.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_hevo_team_4.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\hevo_team_4.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_forward.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\forward.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_im2.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\im2.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_ic_download_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\ic_download_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_hevo_team_7.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\hevo_team_7.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_ic_add_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\ic_add_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_doubletick.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\doubletick.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_activity_send_data.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\activity_send_data.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_ic_pause_white.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\ic_pause_white.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\drawable-xhdpi_search_icon.png.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\drawable-xhdpi\\search_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_imagespicker.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\imagespicker.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_permissions.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\permissions.xml"
+    },
+    {
+        "merged": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-merged_res-47:\\layout_status_fragment.xml.flat",
+        "source": "C:\\Users\\HP\\.gradle\\daemon\\7.6\\com.jayaraj.CrazyChat7.app-main-48:\\layout\\status_fragment.xml"
+    }
+]

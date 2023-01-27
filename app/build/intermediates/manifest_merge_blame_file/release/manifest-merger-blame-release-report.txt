@@ -1,0 +1,848 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.jayaraj.CrazyChat7"
+4    android:versionCode="7"
+5    android:versionName="1.6" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+11-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:5:5-76
+11-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:5:22-73
+12    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+12-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:6:5-73
+12-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:6:22-70
+13    <uses-permission android:name="android.permission.INTERNET" />
+13-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:7:5-67
+13-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:7:22-64
+14    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+14-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:8:5-79
+14-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:8:22-76
+15    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+15-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:9:5-77
+15-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:9:22-74
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:10:5-80
+16-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:10:22-77
+17    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+17-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:11:5-13:40
+17-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:12:9-65
+18    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+18-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:14:5-71
+18-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:14:22-68
+19    <uses-permission android:name="android.permission.READ_CONTACTS" />
+19-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:15:5-72
+19-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:15:22-69
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:16:5-81
+20-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:16:22-78
+21    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+21-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:17:5-75
+21-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:17:22-72
+22    <uses-permission android:name="android.permission.WAKE_LOCK" />
+22-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:18:5-68
+22-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:18:22-65
+23    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+23-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:5-77
+23-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:28:22-74
+24
+25    <permission
+25-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\159406b72381554ae52e5d3938990e03\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+26        android:name="com.jayaraj.CrazyChat7.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+26-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\159406b72381554ae52e5d3938990e03\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+27        android:protectionLevel="signature" />
+27-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\159406b72381554ae52e5d3938990e03\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+28
+29    <uses-permission android:name="com.jayaraj.CrazyChat7.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+29-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\159406b72381554ae52e5d3938990e03\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+29-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\159406b72381554ae52e5d3938990e03\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+30
+31    <application
+31-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:20:5-263:19
+32        android:allowBackup="true"
+32-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:21:9-35
+33        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+33-->[androidx.core:core:1.9.0] C:\Users\HP\.gradle\caches\transforms-3\159406b72381554ae52e5d3938990e03\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+34        android:debuggable="false"
+34-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:22:9-35
+35        android:icon="@drawable/app_icon"
+35-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:23:9-42
+36        android:label="@string/app_name"
+36-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:24:9-41
+37        android:largeHeap="true"
+37-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:25:9-33
+38        android:requestLegacyExternalStorage="true"
+38-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:26:9-52
+39        android:supportsRtl="true"
+39-->[com.github.hkk595:Resizer:v1.5] C:\Users\HP\.gradle\caches\transforms-3\064bbdc04e633efd13bc3b310876962d\transformed\jetified-Resizer-v1.5\AndroidManifest.xml:14:9-35
+40        android:theme="@style/AppTheme"
+40-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:27:9-40
+41        android:usesCleartextTraffic="true" >
+41-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:28:9-44
+42        <activity
+42-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:33:9-65:20
+43            android:name="com.jayaraj.CrazyChat7.ReciveData.SendDataActivity"
+43-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:34:13-56
+44            android:exported="true" >
+44-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:35:13-36
+45            <meta-data
+45-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:36:13-38:36
+46                android:name="android.app.lib_name"
+46-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:37:17-52
+47                android:value="" />
+47-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:38:17-33
+48
+49            <intent-filter>
+49-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:40:13-47:29
+50                <action android:name="android.intent.action.SEND" />
+50-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:41:17-69
+50-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:41:25-66
+51
+52                <category android:name="android.intent.category.DEFAULT" />
+52-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:43:17-76
+52-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:43:27-73
+53                <category android:name="android.intent.category.BROWSABLE" />
+53-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:44:17-78
+53-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:44:27-75
+54
+55                <data android:mimeType="text/plain" />
+55-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:46:17-55
+55-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:46:23-52
+56            </intent-filter>
+57            <intent-filter>
+57-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:48:13-54:29
+58                <action android:name="android.intent.action.SEND_MULTIPLE" />
+58-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:49:17-78
+58-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:49:25-75
+59
+60                <category android:name="android.intent.category.DEFAULT" />
+60-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:43:17-76
+60-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:43:27-73
+61
+62                <data android:mimeType="*/*" />
+62-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:46:17-55
+62-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:46:23-52
+63            </intent-filter>
+64            <intent-filter>
+64-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:55:13-64:29
+65                <action android:name="android.intent.action.SEND" />
+65-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:41:17-69
+65-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:41:25-66
+66
+67                <category android:name="android.intent.category.DEFAULT" />
+67-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:43:17-76
+67-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:43:27-73
+68                <category android:name="android.intent.category.BROWSABLE" />
+68-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:44:17-78
+68-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:44:27-75
+69
+70                <data
+70-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:46:17-55
+71                    android:mimeType="*/*"
+71-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:46:23-52
+72                    android:scheme="file" />
+72-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:63:21-42
+73            </intent-filter>
+74        </activity>
+75        <activity
+75-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:66:9-72:20
+76            android:name="com.jayaraj.CrazyChat7.J.DeveloperActivity"
+76-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:67:13-48
+77            android:exported="false" >
+77-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:68:13-37
+78            <meta-data
+78-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:36:13-38:36
+79                android:name="android.app.lib_name"
+79-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:37:17-52
+80                android:value="" />
+80-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:38:17-33
+81        </activity>
+82        <activity
+82-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:73:9-79:20
+83            android:name="com.jayaraj.CrazyChat7.OtherActs.ChatHomeProfileActivity"
+83-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:74:13-62
+84            android:exported="false" >
+84-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:75:13-37
+85            <meta-data
+85-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:36:13-38:36
+86                android:name="android.app.lib_name"
+86-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:37:17-52
+87                android:value="" />
+87-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:38:17-33
+88        </activity>
+89        <activity
+89-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:80:9-86:20
+90            android:name="com.jayaraj.CrazyChat7.OtherActs.ThemeActivity"
+90-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:81:13-52
+91            android:exported="false" >
+91-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:82:13-37
+92            <meta-data
+92-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:36:13-38:36
+93                android:name="android.app.lib_name"
+93-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:37:17-52
+94                android:value="" />
+94-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:38:17-33
+95        </activity>
+96        <activity
+96-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:87:9-94:20
+97            android:name="com.jayaraj.CrazyChat7.OtherActs.SettingsActivity"
+97-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:88:13-55
+98            android:exported="false"
+98-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:89:13-37
+99            android:label="@string/title_activity_settings" >
+99-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:90:13-60
+100            <meta-data
+100-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:36:13-38:36
+101                android:name="android.app.lib_name"
+101-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:37:17-52
+102                android:value="" />
+102-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:38:17-33
+103        </activity>
+104        <activity
+104-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:95:9-108:20
+105            android:name="com.jayaraj.CrazyChat7.MainActivity"
+105-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:96:13-41
+106            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+106-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:97:13-106
+107            android:exported="true"
+107-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:98:13-36
+108            android:hardwareAccelerated="true"
+108-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:99:13-47
+109            android:supportsPictureInPicture="true"
+109-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:100:13-52
+110            android:windowSoftInputMode="stateHidden" >
+110-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:101:13-54
+111            <intent-filter>
+111-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:103:13-107:29
+112                <action android:name="android.intent.action.MAIN" />
+112-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:104:17-69
+112-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:104:25-66
+113
+114                <category android:name="android.intent.category.LAUNCHER" />
+114-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:106:17-77
+114-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:106:27-74
+115            </intent-filter>
+116        </activity>
+117        <activity
+117-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:109:9-115:35
+118            android:name="com.jayaraj.CrazyChat7.LoginActs.IntroActivity"
+118-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:110:13-52
+119            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+119-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:111:13-106
+120            android:hardwareAccelerated="true"
+120-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:112:13-47
+121            android:supportsPictureInPicture="true"
+121-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:113:13-52
+122            android:windowSoftInputMode="stateHidden" />
+122-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:114:13-54
+123        <activity
+123-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:116:9-123:35
+124            android:name="com.jayaraj.CrazyChat7.LoginActs.OtpLoginActivity"
+124-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:117:13-55
+125            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+125-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:118:13-106
+126            android:hardwareAccelerated="true"
+126-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:119:13-47
+127            android:screenOrientation="portrait"
+127-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:120:13-49
+128            android:supportsPictureInPicture="true"
+128-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:121:13-52
+129            android:windowSoftInputMode="stateHidden" />
+129-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:122:13-54
+130        <activity
+130-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:124:9-129:57
+131            android:name="com.jayaraj.CrazyChat7.LoginActs.UserActivity"
+131-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:125:13-51
+132            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+132-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:126:13-106
+133            android:hardwareAccelerated="true"
+133-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:127:13-47
+134            android:supportsPictureInPicture="true"
+134-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:128:13-52
+135            android:windowSoftInputMode="stateHidden" />
+135-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:129:13-54
+136        <activity
+136-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:130:9-135:57
+137            android:name="com.jayaraj.CrazyChat7.HomeActs.HomeActivity"
+137-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:131:13-50
+138            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+138-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:132:13-106
+139            android:hardwareAccelerated="true"
+139-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:133:13-47
+140            android:supportsPictureInPicture="true"
+140-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:134:13-52
+141            android:windowSoftInputMode="stateHidden" />
+141-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:135:13-54
+142        <activity
+142-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:136:9-141:57
+143            android:name="com.jayaraj.CrazyChat7.OtherActs.PermissionsActivity"
+143-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:137:13-58
+144            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+144-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:138:13-106
+145            android:hardwareAccelerated="true"
+145-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:139:13-47
+146            android:supportsPictureInPicture="true"
+146-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:140:13-52
+147            android:windowSoftInputMode="stateHidden" />
+147-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:141:13-54
+148        <activity
+148-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:142:9-148:57
+149            android:name="com.jayaraj.CrazyChat7.HomeActs.AddUserChatActivity"
+149-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:143:13-57
+150            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+150-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:144:13-106
+151            android:hardwareAccelerated="true"
+151-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:145:13-47
+152            android:screenOrientation="portrait"
+152-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:146:13-49
+153            android:supportsPictureInPicture="true"
+153-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:147:13-52
+154            android:windowSoftInputMode="stateHidden" />
+154-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:148:13-54
+155        <activity
+155-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:149:9-155:57
+156            android:name="com.jayaraj.CrazyChat7.ChatHomeActs.ChathomeActivity"
+156-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:150:13-58
+157            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+157-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:151:13-106
+158            android:hardwareAccelerated="true"
+158-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:152:13-47
+159            android:screenOrientation="portrait"
+159-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:153:13-49
+160            android:supportsPictureInPicture="true"
+160-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:154:13-52
+161            android:windowSoftInputMode="stateHidden" />
+161-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:155:13-54
+162        <activity
+162-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:156:9-162:57
+163            android:name="com.jayaraj.CrazyChat7.ImageVidDispActs.MultiPickerActivity"
+163-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:157:13-65
+164            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+164-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:158:13-106
+165            android:hardwareAccelerated="true"
+165-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:159:13-47
+166            android:screenOrientation="portrait"
+166-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:160:13-49
+167            android:supportsPictureInPicture="true"
+167-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:161:13-52
+168            android:windowSoftInputMode="stateHidden" />
+168-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:162:13-54
+169        <activity
+169-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:163:9-169:57
+170            android:name="com.jayaraj.CrazyChat7.ImageVidDispActs.ImagespickerActivity"
+170-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:164:13-66
+171            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+171-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:165:13-106
+172            android:hardwareAccelerated="true"
+172-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:166:13-47
+173            android:screenOrientation="portrait"
+173-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:167:13-49
+174            android:supportsPictureInPicture="true"
+174-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:168:13-52
+175            android:windowSoftInputMode="stateHidden" />
+175-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:169:13-54
+176        <activity
+176-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:170:9-176:57
+177            android:name="com.jayaraj.CrazyChat7.OtherActs.AudioviewActivity"
+177-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:171:13-56
+178            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+178-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:172:13-106
+179            android:hardwareAccelerated="true"
+179-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:173:13-47
+180            android:screenOrientation="portrait"
+180-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:174:13-49
+181            android:supportsPictureInPicture="true"
+181-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:175:13-52
+182            android:windowSoftInputMode="stateHidden" />
+182-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:176:13-54
+183        <activity
+183-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:177:9-183:57
+184            android:name="com.jayaraj.CrazyChat7.OtherActs.TextFullViewActivity"
+184-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:178:13-59
+185            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+185-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:179:13-106
+186            android:hardwareAccelerated="true"
+186-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:180:13-47
+187            android:screenOrientation="portrait"
+187-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:181:13-49
+188            android:supportsPictureInPicture="true"
+188-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:182:13-52
+189            android:windowSoftInputMode="stateHidden" />
+189-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:183:13-54
+190        <activity
+190-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:184:9-190:57
+191            android:name="com.jayaraj.CrazyChat7.OtherActs.ViewfileActivity"
+191-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:185:13-55
+192            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+192-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:186:13-106
+193            android:hardwareAccelerated="true"
+193-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:187:13-47
+194            android:screenOrientation="portrait"
+194-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:188:13-49
+195            android:supportsPictureInPicture="true"
+195-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:189:13-52
+196            android:windowSoftInputMode="stateHidden" />
+196-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:190:13-54
+197        <activity
+197-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:191:9-196:57
+198            android:name="com.jayaraj.CrazyChat7.UnusedActs.UserprofileActivity"
+198-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:192:13-59
+199            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+199-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:193:13-106
+200            android:hardwareAccelerated="true"
+200-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:194:13-47
+201            android:supportsPictureInPicture="true"
+201-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:195:13-52
+202            android:windowSoftInputMode="stateHidden" />
+202-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:196:13-54
+203        <activity
+203-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:197:9-202:57
+204            android:name="com.jayaraj.CrazyChat7.ImageVidDispActs.ImgfullActivity"
+204-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:198:13-61
+205            android:configChanges="orientation|screenSize|keyboardHidden|smallestScreenSize|screenLayout"
+205-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:199:13-106
+206            android:hardwareAccelerated="true"
+206-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:200:13-47
+207            android:supportsPictureInPicture="true"
+207-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:201:13-52
+208            android:windowSoftInputMode="stateHidden" />
+208-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:202:13-54
+209
+210        <meta-data
+210-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:204:9-206:69
+211            android:name="com.google.android.gms.version"
+211-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:205:13-58
+212            android:value="@integer/google_play_services_version" />
+212-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:206:13-66
+213
+214        <provider
+214-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:208:9-212:39
+215            android:name="com.google.firebase.provider.FirebaseInitProvider"
+215-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:209:13-77
+216            android:authorities="com.jayaraj.CrazyChat7.firebaseinitprovider"
+216-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:210:13-78
+217            android:directBootAware="true"
+217-->[com.google.firebase:firebase-common:20.2.0] C:\Users\HP\.gradle\caches\transforms-3\63b7919f9fece1c3b49b6eb97ba5275c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:28:13-43
+218            android:exported="false"
+218-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:211:13-37
+219            android:initOrder="100" />
+219-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:212:13-36
+220
+221        <service
+221-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:214:9-226:19
+222            android:name="com.google.firebase.components.ComponentDiscoveryService"
+222-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:215:13-84
+223            android:directBootAware="true"
+223-->[com.google.firebase:firebase-common:20.2.0] C:\Users\HP\.gradle\caches\transforms-3\63b7919f9fece1c3b49b6eb97ba5275c\transformed\jetified-firebase-common-20.2.0\AndroidManifest.xml:34:13-43
+224            android:exported="false" >
+224-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:216:13-37
+225            <meta-data
+225-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:217:13-219:85
+226                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+226-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:218:17-109
+227                android:value="com.google.firebase.components.ComponentRegistrar" />
+227-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:219:17-82
+228            <meta-data
+228-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:220:13-222:85
+229                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+229-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:221:17-109
+230                android:value="com.google.firebase.components.ComponentRegistrar" />
+230-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:222:17-82
+231            <meta-data
+231-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:223:13-225:85
+232                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+232-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:224:17-107
+233                android:value="com.google.firebase.components.ComponentRegistrar" />
+233-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:225:17-82
+234            <meta-data
+234-->[com.google.firebase:firebase-firestore:24.4.1] C:\Users\HP\.gradle\caches\transforms-3\9c4b1c6aaaed5abb33710f2c56403fca\transformed\jetified-firebase-firestore-24.4.1\AndroidManifest.xml:19:13-21:85
+235                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+235-->[com.google.firebase:firebase-firestore:24.4.1] C:\Users\HP\.gradle\caches\transforms-3\9c4b1c6aaaed5abb33710f2c56403fca\transformed\jetified-firebase-firestore-24.4.1\AndroidManifest.xml:20:17-111
+236                android:value="com.google.firebase.components.ComponentRegistrar" />
+236-->[com.google.firebase:firebase-firestore:24.4.1] C:\Users\HP\.gradle\caches\transforms-3\9c4b1c6aaaed5abb33710f2c56403fca\transformed\jetified-firebase-firestore-24.4.1\AndroidManifest.xml:21:17-82
+237        </service>
+238
+239        <uses-library
+239-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:228:9-230:40
+240            android:name="org.apache.http.legacy"
+240-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:229:13-50
+241            android:required="false" /> <!-- <service -->
+241-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:230:13-37
+242        <!-- android:name=".ServicesActs.MyService" -->
+243        <!-- android:enabled="true" -->
+244        <!-- android:exported="false" -->
+245        <!-- android:permission="" /> -->
+246        <service
+246-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:235:9-239:41
+247            android:name="com.jayaraj.CrazyChat7.ServicesActs.DbmsgActivity"
+247-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:236:13-55
+248            android:enabled="true"
+248-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:237:13-35
+249            android:exported="false"
+249-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:238:13-37
+250            android:permission="TODO" />
+250-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:239:13-38
+251        <service
+251-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:240:9-244:41
+252            android:name="com.jayaraj.CrazyChat7.ServicesActs.KeepOnlineService"
+252-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:241:13-59
+253            android:enabled="true"
+253-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:242:13-35
+254            android:exported="false"
+254-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:243:13-37
+255            android:permission="TODO" />
+255-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:244:13-38
+256
+257        <receiver
+257-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:246:9-262:20
+258            android:name="com.jayaraj.CrazyChat7.ServicesActs.RunAtStartup"
+258-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:247:13-54
+259            android:enabled="true"
+259-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:248:13-35
+260            android:exported="true"
+260-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:249:13-36
+261            android:logo="@drawable/app_icon" >
+261-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:250:13-46
+262            <intent-filter>
+262-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:251:13-261:29
+263                <action android:name="android.intent.action.BOOT_COMPLETED" />
+263-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:252:17-79
+263-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:252:25-76
+264                <action android:name="android.intent.action.CALL" />
+264-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:253:17-69
+264-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:253:25-66
+265                <action android:name="android.intent.action.BATTERY_LOW" />
+265-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:254:17-76
+265-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:254:25-73
+266                <action android:name="android.intent.action.BATTERY_CHANGED" />
+266-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:255:17-80
+266-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:255:25-77
+267                <action android:name="android.intent.action.BUG_REPORT" />
+267-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:256:17-75
+267-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:256:25-72
+268                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+268-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:257:17-87
+268-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:257:25-84
+269                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+269-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:258:17-90
+269-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:258:25-87
+270                <action android:name="android.intent.action.CONNECTIVITY_CHANGE" />
+270-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:259:17-84
+270-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:259:25-81
+271                <action android:name="android.intent.action.AIRPLANE_MODE" />
+271-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:260:17-78
+271-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:260:25-75
+272            </intent-filter>
+273        </receiver>
+274
+275        <provider
+275-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:31:9-39:20
+276            android:name="androidx.startup.InitializationProvider"
+276-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:32:13-67
+277            android:authorities="com.jayaraj.CrazyChat7.androidx-startup"
+277-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:33:13-68
+278            android:exported="false" >
+278-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:34:13-37
+279            <meta-data
+279-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:36:13-38:52
+280                android:name="androidx.work.WorkManagerInitializer"
+280-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:37:17-68
+281                android:value="androidx.startup" />
+281-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:38:17-49
+282            <meta-data
+282-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\f0a3c63cc7eca6ed7f7f7dcb600e3f3a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+283                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+283-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\f0a3c63cc7eca6ed7f7f7dcb600e3f3a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+284                android:value="androidx.startup" />
+284-->[androidx.emoji2:emoji2:1.2.0] C:\Users\HP\.gradle\caches\transforms-3\f0a3c63cc7eca6ed7f7f7dcb600e3f3a\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+285            <meta-data
+285-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\0d111937d7adfd0241d4f7dfc52fe23a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+286                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+286-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\0d111937d7adfd0241d4f7dfc52fe23a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+287                android:value="androidx.startup" />
+287-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\HP\.gradle\caches\transforms-3\0d111937d7adfd0241d4f7dfc52fe23a\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+288        </provider>
+289
+290        <service
+290-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:41:9-46:35
+291            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+291-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:42:13-88
+292            android:directBootAware="false"
+292-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:43:13-44
+293            android:enabled="@bool/enable_system_alarm_service_default"
+293-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:44:13-72
+294            android:exported="false" />
+294-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:45:13-37
+295        <service
+295-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:47:9-53:35
+296            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+296-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:48:13-84
+297            android:directBootAware="false"
+297-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:49:13-44
+298            android:enabled="@bool/enable_system_job_service_default"
+298-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:50:13-70
+299            android:exported="true"
+299-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:51:13-36
+300            android:permission="android.permission.BIND_JOB_SERVICE" />
+300-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:52:13-69
+301        <service
+301-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:54:9-59:35
+302            android:name="androidx.work.impl.foreground.SystemForegroundService"
+302-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:55:13-81
+303            android:directBootAware="false"
+303-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:56:13-44
+304            android:enabled="@bool/enable_system_foreground_service_default"
+304-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:57:13-77
+305            android:exported="false" />
+305-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:58:13-37
+306
+307        <receiver
+307-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:61:9-66:35
+308            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+308-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:62:13-88
+309            android:directBootAware="false"
+309-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:63:13-44
+310            android:enabled="true"
+310-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:64:13-35
+311            android:exported="false" />
+311-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:65:13-37
+312        <receiver
+312-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:67:9-77:20
+313            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+313-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:68:13-106
+314            android:directBootAware="false"
+314-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:69:13-44
+315            android:enabled="false"
+315-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:70:13-36
+316            android:exported="false" >
+316-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:71:13-37
+317            <intent-filter>
+317-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:73:13-76:29
+318                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+318-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:257:17-87
+318-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:257:25-84
+319                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+319-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:258:17-90
+319-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:258:25-87
+320            </intent-filter>
+321        </receiver>
+322        <receiver
+322-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:78:9-88:20
+323            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+323-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:79:13-104
+324            android:directBootAware="false"
+324-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:80:13-44
+325            android:enabled="false"
+325-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:81:13-36
+326            android:exported="false" >
+326-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:82:13-37
+327            <intent-filter>
+327-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:84:13-87:29
+328                <action android:name="android.intent.action.BATTERY_OKAY" />
+328-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:17-77
+328-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:85:25-74
+329                <action android:name="android.intent.action.BATTERY_LOW" />
+329-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:254:17-76
+329-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:254:25-73
+330            </intent-filter>
+331        </receiver>
+332        <receiver
+332-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:89:9-99:20
+333            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+333-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:90:13-104
+334            android:directBootAware="false"
+334-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:91:13-44
+335            android:enabled="false"
+335-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:92:13-36
+336            android:exported="false" >
+336-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:93:13-37
+337            <intent-filter>
+337-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:95:13-98:29
+338                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+338-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:17-83
+338-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:96:25-80
+339                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+339-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:17-82
+339-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:97:25-79
+340            </intent-filter>
+341        </receiver>
+342        <receiver
+342-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:100:9-109:20
+343            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+343-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:101:13-103
+344            android:directBootAware="false"
+344-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:102:13-44
+345            android:enabled="false"
+345-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:103:13-36
+346            android:exported="false" >
+346-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:104:13-37
+347            <intent-filter>
+347-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:106:13-108:29
+348                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+348-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:17-79
+348-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:107:25-76
+349            </intent-filter>
+350        </receiver>
+351        <receiver
+351-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:110:9-121:20
+352            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+352-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:111:13-88
+353            android:directBootAware="false"
+353-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:112:13-44
+354            android:enabled="false"
+354-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:113:13-36
+355            android:exported="false" >
+355-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:114:13-37
+356            <intent-filter>
+356-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:116:13-120:29
+357                <action android:name="android.intent.action.BOOT_COMPLETED" />
+357-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:252:17-79
+357-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:252:25-76
+358                <action android:name="android.intent.action.TIME_SET" />
+358-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:17-73
+358-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:118:25-70
+359                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+359-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:17-81
+359-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:119:25-78
+360            </intent-filter>
+361        </receiver>
+362        <receiver
+362-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:122:9-131:20
+363            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+363-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:123:13-99
+364            android:directBootAware="false"
+364-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:124:13-44
+365            android:enabled="@bool/enable_system_alarm_service_default"
+365-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:125:13-72
+366            android:exported="false" >
+366-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:126:13-37
+367            <intent-filter>
+367-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:128:13-130:29
+368                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+368-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:17-98
+368-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:129:25-95
+369            </intent-filter>
+370        </receiver>
+371        <receiver
+371-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:132:9-142:20
+372            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+372-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:133:13-78
+373            android:directBootAware="false"
+373-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:134:13-44
+374            android:enabled="true"
+374-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:135:13-35
+375            android:exported="true"
+375-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:136:13-36
+376            android:permission="android.permission.DUMP" >
+376-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:137:13-57
+377            <intent-filter>
+377-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:139:13-141:29
+378                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+378-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:17-88
+378-->[androidx.work:work-runtime:2.7.1] C:\Users\HP\.gradle\caches\transforms-3\8808de92791e7455e564635376b0f502\transformed\work-runtime-2.7.1\AndroidManifest.xml:140:25-85
+379            </intent-filter>
+380        </receiver>
+381
+382        <activity
+382-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:27:9-44:20
+383            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+383-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:28:13-80
+384            android:excludeFromRecents="true"
+384-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:29:13-46
+385            android:exported="true"
+385-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:30:13-36
+386            android:launchMode="singleTask"
+386-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:31:13-44
+387            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+387-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:32:13-72
+388            <intent-filter>
+388-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:33:13-43:29
+389                <action android:name="android.intent.action.VIEW" />
+389-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+389-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+390
+391                <category android:name="android.intent.category.DEFAULT" />
+391-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:43:17-76
+391-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:43:27-73
+392                <category android:name="android.intent.category.BROWSABLE" />
+392-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:44:17-78
+392-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:44:27-75
+393
+394                <data
+394-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:46:17-55
+395                    android:host="firebase.auth"
+396                    android:path="/"
+397                    android:scheme="genericidp" />
+397-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:63:21-42
+398            </intent-filter>
+399        </activity>
+400        <activity
+400-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:45:9-62:20
+401            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+401-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:46:13-79
+402            android:excludeFromRecents="true"
+402-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:47:13-46
+403            android:exported="true"
+403-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:48:13-36
+404            android:launchMode="singleTask"
+404-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:49:13-44
+405            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+405-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:50:13-72
+406            <intent-filter>
+406-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:51:13-61:29
+407                <action android:name="android.intent.action.VIEW" />
+407-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:17-69
+407-->[com.google.firebase:firebase-auth:21.1.0] C:\Users\HP\.gradle\caches\transforms-3\a8ddce2a8e12984abb33365027856e0b\transformed\jetified-firebase-auth-21.1.0\AndroidManifest.xml:34:25-66
+408
+409                <category android:name="android.intent.category.DEFAULT" />
+409-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:43:17-76
+409-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:43:27-73
+410                <category android:name="android.intent.category.BROWSABLE" />
+410-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:44:17-78
+410-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:44:27-75
+411
+412                <data
+412-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:46:17-55
+413                    android:host="firebase.auth"
+414                    android:path="/"
+415                    android:scheme="recaptcha" />
+415-->C:\Users\HP\AndroidStudioProjects\NeverGiveUp\app\src\main\AndroidManifest.xml:63:21-42
+416            </intent-filter>
+417        </activity>
+418        <activity
+418-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\bc354b54c319dea800d88fb69ab01712\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+419            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+419-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\bc354b54c319dea800d88fb69ab01712\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+420            android:exported="false"
+420-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\bc354b54c319dea800d88fb69ab01712\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+421            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+421-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\HP\.gradle\caches\transforms-3\bc354b54c319dea800d88fb69ab01712\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+422
+423        <uses-library
+423-->[androidx.window:window:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\b325fa50a905f6daaf1e535f667b88c5\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+424            android:name="androidx.window.extensions"
+424-->[androidx.window:window:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\b325fa50a905f6daaf1e535f667b88c5\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+425            android:required="false" />
+425-->[androidx.window:window:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\b325fa50a905f6daaf1e535f667b88c5\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+426        <uses-library
+426-->[androidx.window:window:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\b325fa50a905f6daaf1e535f667b88c5\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+427            android:name="androidx.window.sidecar"
+427-->[androidx.window:window:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\b325fa50a905f6daaf1e535f667b88c5\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+428            android:required="false" />
+428-->[androidx.window:window:1.0.0] C:\Users\HP\.gradle\caches\transforms-3\b325fa50a905f6daaf1e535f667b88c5\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+429
+430        <service
+430-->[androidx.room:room-runtime:2.2.5] C:\Users\HP\.gradle\caches\transforms-3\2623fd7b43b19cb4dd4706b6ebdafbd0\transformed\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+431            android:name="androidx.room.MultiInstanceInvalidationService"
+431-->[androidx.room:room-runtime:2.2.5] C:\Users\HP\.gradle\caches\transforms-3\2623fd7b43b19cb4dd4706b6ebdafbd0\transformed\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+432            android:directBootAware="true"
+432-->[androidx.room:room-runtime:2.2.5] C:\Users\HP\.gradle\caches\transforms-3\2623fd7b43b19cb4dd4706b6ebdafbd0\transformed\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+433            android:exported="false" />
+433-->[androidx.room:room-runtime:2.2.5] C:\Users\HP\.gradle\caches\transforms-3\2623fd7b43b19cb4dd4706b6ebdafbd0\transformed\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+434    </application>
+435
+436</manifest>

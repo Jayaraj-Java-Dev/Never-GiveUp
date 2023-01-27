@@ -1,0 +1,57 @@
+plugins {
+	id 'com.android.application'
+	id 'com.google.gms.google-services'
+}
+
+
+android {
+	signingConfigs {
+		cc7 {
+			storeFile file('C:\\Users\\HP\\JayCC7.jks')
+			storePassword '9524229669'
+			keyAlias 'crazychat'
+			keyPassword '9524229669'
+		}
+	}
+	useLibrary 'org.apache.http.legacy'
+	compileSdkVersion 33
+	
+	defaultConfig {
+		applicationId "com.jayaraj.CrazyChat7"
+		minSdkVersion 21
+		targetSdkVersion 33
+		versionCode 7
+		versionName '1.6'
+	}
+	buildTypes {
+		release {
+			minifyEnabled false
+			proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            debuggable false
+        }
+	}
+    namespace 'com.jayaraj.CrazyChat7'
+}
+
+
+dependencies {
+	implementation fileTree(dir: 'libs', include: ['*.jar'])
+	implementation "androidx.work:work-runtime:2.7.1"
+	implementation "com.facebook.shimmer:shimmer:0.5.0"
+	implementation "com.github.hkk595:Resizer:v1.5"
+	implementation "com.airbnb.android:lottie:5.2.0"
+	implementation "androidx.viewpager2:viewpager2:1.0.0"
+	implementation 'de.hdodenhof:circleimageview:3.1.0'
+	implementation 'androidx.appcompat:appcompat:1.6.0'
+	implementation 'com.google.android.material:material:1.8.0-rc01'
+	implementation 'com.google.firebase:firebase-auth:21.1.0'
+	implementation 'com.google.firebase:firebase-database:20.1.0'
+	implementation 'com.google.firebase:firebase-storage:20.1.0'
+	implementation 'com.github.bumptech.glide:glide:4.14.2'
+	implementation 'com.google.code.gson:gson:2.10.1'
+	implementation 'com.squareup.okhttp3:okhttp:5.0.0-alpha.11'
+    implementation 'androidx.preference:preference:1.2.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+	implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.5.1'
+    implementation 'com.google.firebase:firebase-firestore:24.4.1'
+}

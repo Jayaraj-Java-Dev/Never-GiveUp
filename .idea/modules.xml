@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/NeverGiveUp.iml" filepath="$PROJECT_DIR$/.idea/modules/NeverGiveUp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NeverGiveUp.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NeverGiveUp.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NeverGiveUp.app.androidTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NeverGiveUp.app.androidTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NeverGiveUp.app.main.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NeverGiveUp.app.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/NeverGiveUp.app.unitTest.iml" filepath="$PROJECT_DIR$/.idea/modules/app/NeverGiveUp.app.unitTest.iml" />
+    </modules>
+  </component>
+</project>

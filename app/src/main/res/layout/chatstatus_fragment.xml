@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:orientation="vertical">
+	<LinearLayout
+		android:id="@+id/linear3"
+		android:layout_width="match_parent"
+		android:layout_height="60dp"
+		android:padding="5dp"
+		android:background="#FFFFFF"
+		android:gravity="center_vertical"
+		android:orientation="horizontal" />
+	<LinearLayout
+		android:id="@+id/linear1"
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical">
+		<LinearLayout
+			android:id="@+id/linear2"
+			android:layout_width="match_parent"
+			android:layout_height="0dp"
+			android:padding="8dp"
+			android:orientation="vertical"
+			tools:ignore="Suspicious0dp" />
+		<TextView
+			android:id="@+id/friendtxt"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:textSize="18dp"
+			android:gravity="center"
+			android:padding="8dp"
+			android:text="Remove From Friend List"
+			android:layout_margin="8dp" />
+		<TextView
+			android:id="@+id/textview1"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:padding="8dp"
+			android:text="ABC's Gallery"
+			android:textSize="12sp"
+			android:textColor="#FFFFFF" />
+		<ImageView
+			android:id="@+id/imageview1"
+			android:layout_width="wrap_content"
+			android:layout_height="0dp"
+			android:src="@drawable/default_image"
+			android:scaleType="center" />
+		<androidx.recyclerview.widget.RecyclerView
+			android:id="@+id/recyclerview1"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:padding="8dp" />
+	</LinearLayout>
+</LinearLayout>

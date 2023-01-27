@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">280417077712-g7cl6f8s4hputhrj14oia1qcasq5bne9.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://crazy-chat-7-default-rtdb.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">280417077712</string>
+    <string name="google_api_key" translatable="false">AIzaSyADtZRIxbhuxnjKoRzGjnEgl1d3U_iwsrc</string>
+    <string name="google_app_id" translatable="false">1:280417077712:android:a7da40739ff71e141e11d5</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyADtZRIxbhuxnjKoRzGjnEgl1d3U_iwsrc</string>
+    <string name="google_storage_bucket" translatable="false">crazy-chat-7.appspot.com</string>
+    <string name="project_id" translatable="false">crazy-chat-7</string>
+</resources>

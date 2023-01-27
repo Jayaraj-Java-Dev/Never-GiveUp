@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/add_user_chat.xml" value="0.275" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/audioview.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/chat_fragment.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/chathome.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/chats_fragment.xml" value="0.4" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/chatstatus_fragment.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/chatuserlist.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/contacts.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/fabsviewfilecus.xml" value="0.4" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/grid_item.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/home.xml" value="0.1" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/imagespicker.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/imgfull.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/intro.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/introcus.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/item.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/main.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/menu.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/messagecus.xml" value="0.4" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/multi_picker.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/otp_login.xml" value="0.4" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/permissions.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/popup.xml" value="0.264" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/status_fragment.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/tabcus.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/textfullview.xml" value="0.275" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/user.xml" value="0.4" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/userprofile.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/view_pager.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/viewfile.xml" value="0.125" />
+        <entry key="..\:/Users/HP/AndroidStudioProjects/NeverGiveUp/app/src/main/res/layout/viewfilecus.xml" value="0.125" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

@@ -1,0 +1,123 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/linear1BG"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/linearBackGround"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageviewBackGround"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_image" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linear1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal|center_vertical"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:id="@+id/shm1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:shimmer_auto_start="true"
+                app:shimmer_base_alpha="0.6"
+                app:shimmer_duration="1000"
+                app:shimmer_shape="radial">
+
+                <ImageView
+                    android:id="@+id/imageview2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:scaleType="center"
+                    android:src="@drawable/logo_trans" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:shimmer_auto_start="true"
+                app:shimmer_duration="1000"
+                app:shimmer_shape="radial">
+
+                <TextView
+                    android:id="@+id/cc1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Crazy Chat"
+                    android:textSize="20dp" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:shimmer_auto_start="true"
+                app:shimmer_duration="1000"
+                app:shimmer_shape="radial">
+
+                <TextView
+                    android:id="@+id/cc2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="by JAY"
+                    android:textSize="12dp" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="100dp"
+                app:shimmer_auto_start="true"
+                app:shimmer_base_alpha="0.6"
+                app:shimmer_duration="1000"
+                app:shimmer_shape="radial">
+
+                <TextView
+                    android:id="@+id/cc3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="View My Site"
+                    android:textSize="14dp" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+            <com.facebook.shimmer.ShimmerFrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:shimmer_auto_start="true"
+                app:shimmer_duration="1000"
+                app:shimmer_base_alpha="0.4"
+                app:shimmer_shape="radial">
+
+                <TextView
+                    android:id="@+id/cc4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="version = 1.6"
+                    android:textSize="15dp" />
+            </com.facebook.shimmer.ShimmerFrameLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

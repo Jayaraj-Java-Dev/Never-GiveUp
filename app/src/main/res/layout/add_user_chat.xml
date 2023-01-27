@@ -1,0 +1,233 @@
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:id="@+id/_coordinator"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent">
+	<com.google.android.material.appbar.AppBarLayout
+		android:id="@+id/_app_bar"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:theme="@style/AppTheme.AppBarOverlay">
+		<androidx.appcompat.widget.Toolbar
+			android:id="@+id/_toolbar"
+			android:layout_width="match_parent"
+			android:layout_height="?attr/actionBarSize"
+			android:background="?attr/colorPrimary"
+			app:popupTheme="@style/AppTheme.PopupOverlay" />
+	</com.google.android.material.appbar.AppBarLayout>
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="match_parent"
+		android:orientation="vertical"
+		app:layout_behavior="@string/appbar_scrolling_view_behavior">
+		<RelativeLayout
+			android:id="@+id/linear1BG"
+			android:layout_width="match_parent"
+			android:layout_height="match_parent"
+			android:gravity="center_horizontal|center_vertical"
+			android:orientation="vertical">
+			<LinearLayout
+				android:id="@+id/linearBackGround"
+				android:layout_width="match_parent"
+				android:layout_height="0dp"
+				android:orientation="horizontal">
+				<ImageView
+					android:id="@+id/imageviewBackGround"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:src="@drawable/default_image"
+					android:scaleType="centerCrop" />
+			</LinearLayout>
+			<LinearLayout
+				android:id="@+id/linear2"
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:gravity="center_horizontal|center_vertical"
+				android:orientation="vertical">
+				<LinearLayout
+					android:id="@+id/linear1"
+					android:layout_width="match_parent"
+					android:layout_height="match_parent"
+					android:gravity="center_horizontal|center_vertical"
+					android:orientation="vertical">
+					<LinearLayout
+						android:id="@+id/linearsearch1"
+						android:layout_margin="10dp"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:gravity="center">
+						<ImageView
+							android:id="@+id/searchimg1"
+							android:contentDescription="Search By Number or Name"
+							android:layout_width="40dp"
+							android:layout_height="40dp"
+							android:scaleType="fitCenter"
+							android:src="@drawable/search_icon"/>
+						<EditText
+							android:id="@+id/searchedit"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:background="@android:color/transparent"
+							android:hint="Search"
+							android:padding="8dp"
+							android:gravity="center"
+							android:textColor="#000000"
+							android:textColorHint="#607D8B"
+							android:textSize="18sp"
+							tools:ignore="TouchTargetSizeCheck" />
+					</LinearLayout>
+
+					<LinearLayout
+						android:id="@+id/lnet"
+						android:layout_margin="8dp"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:orientation="vertical">
+						<TextView
+							android:id="@+id/textview2"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:padding="8dp"
+							android:gravity="center_horizontal|center_vertical"
+							android:text="Person From the Net"
+							android:textSize="10dp"
+							android:textColor="#000000" />
+						<LinearLayout
+							android:id="@+id/netlinear"
+							android:layout_width="match_parent"
+							android:layout_height="wrap_content"
+							android:gravity="center_vertical"
+							android:layout_margin="5dp"
+							android:orientation="horizontal">
+
+							<LinearLayout
+								android:layout_width="55dp"
+								android:layout_height="55dp"
+								android:layout_margin="5dp"
+								android:gravity="center_horizontal|center_vertical"
+								android:orientation="horizontal">
+
+								<RelativeLayout
+									android:layout_width="55dp"
+									android:layout_height="55dp"
+									android:orientation="horizontal">
+
+									<LinearLayout
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:gravity="center_horizontal|center_vertical"
+										android:orientation="horizontal">
+
+										<ProgressBar
+											style="?android:progressBarStyle"
+											android:layout_width="55dp"
+											android:layout_height="55dp"
+											android:focusable="false"
+											android:indeterminate="false"
+											android:padding="8dp" />
+									</LinearLayout>
+
+									<LinearLayout
+										android:layout_width="match_parent"
+										android:layout_height="match_parent"
+										android:gravity="center_horizontal|center_vertical"
+										android:orientation="horizontal">
+
+										<de.hdodenhof.circleimageview.CircleImageView
+											android:id="@+id/netimg"
+											android:layout_width="55dp"
+											android:layout_height="55dp"
+											android:layout_gravity="center_horizontal|center_vertical"
+											android:src="@drawable/default_profile"
+											app:civ_border_color="#008DCD"
+											app:civ_border_overlay="true"
+											app:civ_border_width="0dp"
+											app:civ_circle_background_color="#FFFFFF" />
+									</LinearLayout>
+								</RelativeLayout>
+							</LinearLayout>
+
+							<LinearLayout
+								android:layout_width="wrap_content"
+								android:layout_height="wrap_content"
+								android:layout_weight="1"
+								android:orientation="vertical">
+								<TextView
+									android:id="@+id/netname"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_marginLeft="5dp"
+									android:layout_weight="1"
+									android:focusable="false"
+									android:paddingLeft="2dp"
+									android:paddingTop="2dp"
+									android:paddingRight="2dp"
+									android:paddingBottom="1dp"
+									android:singleLine="true"
+									android:text="TextView"
+									android:textColor="#FFFFFF"
+									android:textSize="16sp"
+									android:textStyle="bold" />
+								<TextView
+									android:id="@+id/netnumber"
+									android:layout_width="wrap_content"
+									android:layout_height="wrap_content"
+									android:layout_margin="5dp"
+									android:focusable="false"
+									android:paddingLeft="2dp"
+									android:paddingTop="1dp"
+									android:paddingRight="2dp"
+									android:paddingBottom="2dp"
+									android:singleLine="true"
+									android:text="TextView"
+									android:textColor="#FFFFFF"
+									android:textSize="11sp" />
+							</LinearLayout>
+						</LinearLayout>
+					</LinearLayout>
+					<TextView
+						android:id="@+id/textview1"
+						android:layout_width="match_parent"
+						android:layout_height="wrap_content"
+						android:padding="8dp"
+						android:gravity="center_horizontal|center_vertical"
+						android:text="Please Wait\nVerifying Your Contacts"
+						android:textSize="12dp"
+						android:textColor="#000000" />
+					<androidx.recyclerview.widget.RecyclerView
+						android:id="@+id/recyclerview1"
+						android:layout_width="match_parent"
+						android:layout_height="match_parent"
+						android:padding="8dp"
+						android:layout_weight="1"/>
+					<LinearLayout
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:orientation="horizontal"
+						android:gravity="center">
+						<ImageView
+							android:id="@+id/alert"
+							android:layout_width="20dp"
+							android:layout_height="20dp"
+							android:layout_marginLeft="4dp"
+							android:src="@drawable/hevo_team_5_2"
+							android:scaleType="fitXY" />
+						<TextView
+							android:id="@+id/alertTitle"
+							android:padding="2dp"
+							android:gravity="center"
+							android:textSize="12dp"
+							android:layout_width="wrap_content"
+							android:layout_height="wrap_content"
+							android:text="Add Phone Number to the Contact or Search it!">
+
+						</TextView>
+					</LinearLayout>
+				</LinearLayout>
+			</LinearLayout>
+		</RelativeLayout>
+	</LinearLayout>
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

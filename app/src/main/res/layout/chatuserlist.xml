@@ -1,0 +1,148 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal|center_vertical"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/linear2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="left|center_vertical"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_margin="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/linear7"
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_margin="5dp"
+                    android:gravity="center_horizontal|center_vertical"
+                    android:orientation="horizontal">
+
+                    <RelativeLayout
+                        android:id="@+id/linear4"
+                        android:layout_width="55dp"
+                        android:layout_height="55dp"
+                        android:orientation="horizontal">
+
+                        <LinearLayout
+                            android:id="@+id/linear5"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:orientation="horizontal">
+
+                            <ProgressBar
+                                android:id="@+id/progressbar1"
+                                style="?android:progressBarStyle"
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:focusable="false"
+                                android:indeterminate="false"
+                                android:padding="8dp" />
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/linear6"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_horizontal|center_vertical"
+                            android:orientation="horizontal">
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:id="@+id/circleimageview2"
+                                android:layout_width="55dp"
+                                android:layout_height="55dp"
+                                android:layout_gravity="center_horizontal|center_vertical"
+                                android:src="@drawable/default_profile"
+                                app:civ_border_color="#008DCD"
+                                app:civ_border_overlay="true"
+                                app:civ_border_width="0dp"
+                                app:civ_circle_background_color="#FFFFFF" />
+                        </LinearLayout>
+                    </RelativeLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/heading1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+					android:layout_weight="1"
+					android:orientation="vertical">
+                    <TextView
+                        android:id="@+id/textview2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_weight="1"
+                        android:focusable="false"
+                        android:paddingLeft="2dp"
+                        android:paddingTop="2dp"
+                        android:paddingRight="2dp"
+                        android:paddingBottom="1dp"
+                        android:singleLine="true"
+                        android:text="TextView"
+                        android:textColor="#FFFFFF"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+					<TextView
+						android:id="@+id/textview3"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_margin="5dp"
+						android:focusable="false"
+						android:paddingLeft="2dp"
+						android:paddingTop="1dp"
+						android:paddingRight="2dp"
+						android:paddingBottom="2dp"
+						android:singleLine="true"
+						android:text="TextView"
+						android:textColor="#FFFFFF"
+						android:textSize="11sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/textview5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:focusable="false"
+                    android:padding="2dp"
+					android:layout_gravity="center"
+                    android:singleLine="true"
+                    android:text="TextView"
+                    android:textColor="#FFFFFF"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical"
+        android:alpha="0.3"
+        android:background="#808080">
+    </LinearLayout>
+</LinearLayout>
