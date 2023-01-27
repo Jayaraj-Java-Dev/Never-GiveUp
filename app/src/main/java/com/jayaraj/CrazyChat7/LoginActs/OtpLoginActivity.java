@@ -460,7 +460,6 @@ public class OtpLoginActivity extends AppCompatActivity {
     }
 
     public void _OnClickGo() {
-        //changes checking
         this.entermobile.setFreezesText(true);
         this.progressbar2.setVisibility(View.VISIBLE);
         this.textview15.setVisibility(View.GONE);
