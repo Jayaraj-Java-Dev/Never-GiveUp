@@ -1,9 +1,9 @@
 <component name="libraryTable">
   <library name="Gradle: com.github.hkk595:Resizer:v1.5@aar">
     <CLASSES>
-      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/064bbdc04e633efd13bc3b310876962d/transformed/jetified-Resizer-v1.5/jars/classes.jar!/" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/064bbdc04e633efd13bc3b310876962d/transformed/jetified-Resizer-v1.5/AndroidManifest.xml" />
-      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/064bbdc04e633efd13bc3b310876962d/transformed/jetified-Resizer-v1.5/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-3/29e3eb1d283fe37d445807e344652256/transformed/jetified-Resizer-v1.5/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/29e3eb1d283fe37d445807e344652256/transformed/jetified-Resizer-v1.5/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-3/29e3eb1d283fe37d445807e344652256/transformed/jetified-Resizer-v1.5/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

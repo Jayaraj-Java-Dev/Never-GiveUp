@@ -188,36 +188,25 @@ public class OtpLoginActivity extends AppCompatActivity {
         this.jay = new Jay(this.getSharedPreferences("MODE", Context.MODE_PRIVATE));
 
 
-        this.entermobile.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(final View _view) {
+        this.entermobile.setOnClickListener(_view -> {
 
-            }
         });
-        this.textview15.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(final View _view) {
-                if (OtpLoginActivity.this.OTP) {
-                    if (6 == OtpLoginActivity.this.entermobile.getText().toString().length()) {
-                        OtpLoginActivity.this._OnVeryfy();
-                    } else {
-                        SketchwareUtil.showMessage(OtpLoginActivity.this.getApplicationContext(), "Enter OTP in 6 Digits");
-                    }
+        this.textview15.setOnClickListener(_view -> {
+            if (OtpLoginActivity.this.OTP) {
+                if (6 == OtpLoginActivity.this.entermobile.getText().toString().length()) {
+                    OtpLoginActivity.this._OnVeryfy();
                 } else {
-                    if (13 == OtpLoginActivity.this.entermobile.getText().toString().length()) {
-                        OtpLoginActivity.this._OnClickGo();
-                    } else {
-                        SketchwareUtil.showMessage(OtpLoginActivity.this.getApplicationContext(), "Enter Your Mobile Number Correctly");
-                    }
+                    SketchwareUtil.showMessage(OtpLoginActivity.this.getApplicationContext(), "Enter OTP in 6 Digits");
+                }
+            } else {
+                if (13 == OtpLoginActivity.this.entermobile.getText().toString().length()) {
+                    OtpLoginActivity.this._OnClickGo();
+                } else {
+                    SketchwareUtil.showMessage(OtpLoginActivity.this.getApplicationContext(), "Enter Your Mobile Number Correctly");
                 }
             }
         });
-        this.bt1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(final View _view) {
-                OtpLoginActivity.this.entermobile.setText(OtpLoginActivity.this.entermobile.getText().toString().concat("1"));
-            }
-        });
+        this.bt1.setOnClickListener(_view -> OtpLoginActivity.this.entermobile.setText(OtpLoginActivity.this.entermobile.getText().toString().concat("1")));
         this.bt2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(final View _view) {
@@ -417,8 +406,6 @@ public class OtpLoginActivity extends AppCompatActivity {
     }
 
     public void _Anime(String _Sp, View _Linear) {
-        //Hell
-        //well
         if ("".equals(this.asp.getString(_Sp, ""))) {
             this.asp.edit().putString(_Sp, "true").apply();
             final AutoTransition autoTransition = new AutoTransition();

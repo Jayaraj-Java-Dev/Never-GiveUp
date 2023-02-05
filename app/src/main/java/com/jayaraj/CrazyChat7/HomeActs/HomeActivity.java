@@ -75,7 +75,6 @@ public class HomeActivity extends AppCompatActivity {
     private final Timer _timer = new Timer();
     private final FirebaseDatabase _firebase = FirebaseDatabase.getInstance();
     private final FirebaseStorage _firebase_storage = FirebaseStorage.getInstance();
-
     private double tmpnum;
     private String tempstr = "";
     private String tempstr2 = "";
