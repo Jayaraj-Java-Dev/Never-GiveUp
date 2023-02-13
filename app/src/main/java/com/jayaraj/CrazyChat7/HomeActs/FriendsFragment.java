@@ -132,60 +132,61 @@ public class FriendsFragment extends Fragment {
         this.prgreq.setVisibility(View.VISIBLE);
         this.listviewrequest.setVisibility(View.GONE);
         this.reqlist.clear();
-        this.prgreq.setAlpha(0);
+//        this.prgreq.setAlpha(0);
         this.localmap.clear();
-        this.prgreq.animate().setDuration(1500).alpha(1).setListener(new Animator.AnimatorListener() {
-            @Override
-            public void onAnimationStart(@NonNull final Animator animator) {
-            }
+        FriendsFragment.this.notice.setText("No Friend Requests Available");
+        FriendsFragment.this.notice.setVisibility(View.VISIBLE);
+        final int n = Integer.parseInt(FriendsFragment.this.FriendReq.getString("n", "0"));
+        FriendsFragment.this.listviewrequest.setVisibility(View.VISIBLE);
+        FriendsFragment.this.prgreq.setVisibility(View.GONE);
 
-            @Override
-            public void onAnimationEnd(@NonNull final Animator animator) {
-                FriendsFragment.this.notice.setText("No Friend Requests Available");
-                FriendsFragment.this.notice.setVisibility(View.VISIBLE);
-                final int n = Integer.parseInt(FriendsFragment.this.FriendReq.getString("n", "0"));
-                FriendsFragment.this.listviewrequest.setVisibility(View.VISIBLE);
-                FriendsFragment.this.prgreq.setVisibility(View.GONE);
-
-                for (int i = n - 1; n - 11 < i && i >= 0; i--) {
-                    final int finalI = i;
-                    FriendsFragment.this.fs.collection("UserProfile").document(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).collection("Friends").whereEqualTo("id", FriendsFragment.this.FriendReq.getString(String.valueOf(i), "null")).get().addOnCompleteListener(task -> {
-                        if (task.isSuccessful()) {
-                            if (task.getResult().getDocuments().size() == 0) {
-                                boolean flag = true;
-                                for (int j = 0; j < FriendsFragment.this.reqlist.size(); j++) {
-                                    if (Objects.requireNonNull(FriendsFragment.this.reqlist.get(j).get("id")).toString().equals(FriendsFragment.this.FriendReq.getString(String.valueOf(finalI), "null"))) {
-                                        flag = false;
-                                        break;
-                                    }
-                                }
-                                if (flag) {
-                                    final HashMap<String, Object> hm = new HashMap<>();
-                                    hm.put("sp", finalI);
-                                    hm.put("id", FriendsFragment.this.FriendReq.getString(String.valueOf(finalI), "null"));
-                                    FriendsFragment.this.reqlist.add(FriendsFragment.this.reqlist.size(), hm);
-
-                                    FriendsFragment.this.notice.setText(FriendsFragment.this.reqlist.size() + " Requests");
-                                    Objects.requireNonNull(FriendsFragment.this.listviewrequest.getAdapter()).notifyDataSetChanged();
-                                }
+        for (int i = n - 1; n - 11 < i && i >= 0; i--) {
+            final int finalI = i;
+            FriendsFragment.this.fs.collection("UserProfile").document(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).collection("Friends").whereEqualTo("id", FriendsFragment.this.FriendReq.getString(String.valueOf(i), "null")).get().addOnCompleteListener(task -> {
+                if (task.isSuccessful()) {
+                    if (task.getResult().getDocuments().size() == 0) {
+                        boolean flag = true;
+                        for (int j = 0; j < FriendsFragment.this.reqlist.size(); j++) {
+                            if (Objects.requireNonNull(FriendsFragment.this.reqlist.get(j).get("id")).toString().equals(FriendsFragment.this.FriendReq.getString(String.valueOf(finalI), "null"))) {
+                                flag = false;
+                                break;
                             }
-                        } else {
-                            System.out.println("Network Error");
                         }
-                    });
+                        if (flag) {
+                            final HashMap<String, Object> hm = new HashMap<>();
+                            hm.put("sp", finalI);
+                            hm.put("id", FriendsFragment.this.FriendReq.getString(String.valueOf(finalI), "null"));
+                            FriendsFragment.this.reqlist.add(FriendsFragment.this.reqlist.size(), hm);
 
+                            FriendsFragment.this.notice.setText(FriendsFragment.this.reqlist.size() + " Requests");
+                            Objects.requireNonNull(FriendsFragment.this.listviewrequest.getAdapter()).notifyDataSetChanged();
+                        }
+                    }
+                } else {
+                    System.out.println("Network Error");
                 }
+            });
 
-            }
+        }
 
-            @Override
-            public void onAnimationCancel(@NonNull final Animator animator) {
-            }
-
-            @Override
-            public void onAnimationRepeat(@NonNull final Animator animator) {
-            }
-        }).start();
+//        this.prgreq.animate().setDuration(1500).alpha(1).setListener(new Animator.AnimatorListener() {
+//            @Override
+//            public void onAnimationStart(@NonNull final Animator animator) {
+//            }
+//
+//            @Override
+//            public void onAnimationEnd(@NonNull final Animator animator) {
+//
+//            }
+//
+//            @Override
+//            public void onAnimationCancel(@NonNull final Animator animator) {
+//            }
+//
+//            @Override
+//            public void onAnimationRepeat(@NonNull final Animator animator) {
+//            }
+//        }).start();
 
     }
 
@@ -196,68 +197,69 @@ public class FriendsFragment extends Fragment {
         this.prgfri.setVisibility(View.VISIBLE);
         this.listviewfriends.setVisibility(View.GONE);
         this.frilist.clear();
-        this.prgfri.setAlpha(0);
-        this.prgfri.animate().setDuration(1500).alpha(1).setListener(new Animator.AnimatorListener() {
-            @Override
-            public void onAnimationStart(@NonNull final Animator animator) {
-            }
-
-            @Override
-            public void onAnimationEnd(@NonNull final Animator animator) {
-                final int n = Integer.parseInt(FriendsFragment.this.FriendReq.getString("n", "0"));
-                FriendsFragment.this.listviewfriends.setVisibility(View.VISIBLE);
+        final int n = Integer.parseInt(FriendsFragment.this.FriendReq.getString("n", "0"));
+        FriendsFragment.this.listviewfriends.setVisibility(View.VISIBLE);
 //                prgfri.setVisibility(View.GONE);
-                FriendsFragment.this.frilist.clear();
-                FriendsFragment.this.fs.collection("UserProfile").document(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).collection("Friends").orderBy("id").limit(100).get().addOnCompleteListener(task -> {
-                    if (task.isSuccessful()) {
-                        final List<DocumentSnapshot> l = task.getResult().getDocuments();
-                        final CollectionReference user;
-                        user = FriendsFragment.this.fs.collection("UserProfile");
-                        if (l.size() == 0) {
-                            FriendsFragment.this.notice.setVisibility(View.VISIBLE);
-                            FriendsFragment.this.prgfri.setVisibility(View.GONE);
-                            FriendsFragment.this.prgfri.setVisibility(View.GONE);
-                            FriendsFragment.this.notice.setText("No Friends Found");
+        FriendsFragment.this.frilist.clear();
+        FriendsFragment.this.fs.collection("UserProfile").document(Objects.requireNonNull(FirebaseAuth.getInstance().getCurrentUser()).getUid()).collection("Friends").orderBy("id").limit(100).get().addOnCompleteListener(task -> {
+            if (task.isSuccessful()) {
+                final List<DocumentSnapshot> l = task.getResult().getDocuments();
+                final CollectionReference user;
+                user = FriendsFragment.this.fs.collection("UserProfile");
+                if (l.size() == 0) {
+                    FriendsFragment.this.notice.setVisibility(View.VISIBLE);
+                    FriendsFragment.this.prgfri.setVisibility(View.GONE);
+                    FriendsFragment.this.prgfri.setVisibility(View.GONE);
+                    FriendsFragment.this.notice.setText("No Friends Found");
+                }
+                FriendsFragment.this.lenthfriends = 0;
+                for (int i = 0; i < l.size(); i++) {
+                    HashMap<String, Object> hm = new HashMap<>();
+                    hm.put("id", l.get(i).get("id"));
+                    hm.put("phone", l.get(i).get("phone"));
+                    hm.put("time", l.get(i).get("time"));
+
+                    user.document(Objects.requireNonNull(l.get(i).get("id")).toString()).get().addOnCompleteListener(task1 -> {
+                        FriendsFragment.this.lenthfriends++;
+                        if (task1.isSuccessful()) {
+                            final DocumentSnapshot ds = task1.getResult();
+                            hm.put("name", ds.get("NAME"));
+                            hm.put("image", ds.get("URL"));
+                            FriendsFragment.this.frilist.add(hm);
+                            Objects.requireNonNull(FriendsFragment.this.listviewfriends.getAdapter()).notifyDataSetChanged();
                         }
-                        FriendsFragment.this.lenthfriends = 0;
-                        for (int i = 0; i < l.size(); i++) {
-                            HashMap<String, Object> hm = new HashMap<>();
-                            hm.put("id", l.get(i).get("id"));
-                            hm.put("phone", l.get(i).get("phone"));
-                            hm.put("time", l.get(i).get("time"));
-
-                            user.document(Objects.requireNonNull(l.get(i).get("id")).toString()).get().addOnCompleteListener(task1 -> {
-                                FriendsFragment.this.lenthfriends++;
-                                if (task1.isSuccessful()) {
-                                    final DocumentSnapshot ds = task1.getResult();
-                                    hm.put("name", ds.get("NAME"));
-                                    hm.put("image", ds.get("URL"));
-                                    FriendsFragment.this.frilist.add(hm);
-                                    Objects.requireNonNull(FriendsFragment.this.listviewfriends.getAdapter()).notifyDataSetChanged();
-                                }
-                                if (FriendsFragment.this.lenthfriends == l.size()) {
-                                    FriendsFragment.this.prgfri.setVisibility(View.GONE);
-                                }
-                            });
-
+                        if (FriendsFragment.this.lenthfriends == l.size()) {
+                            FriendsFragment.this.prgfri.setVisibility(View.GONE);
                         }
+                    });
 
-                    } else {
-                        System.out.println("Network Error");
-                    }
-                });
+                }
 
-
+            } else {
+                System.out.println("Network Error");
             }
+        });
 
-            @Override
-            public void onAnimationCancel(@NonNull final Animator animator) {
-            }
 
-            @Override
-            public void onAnimationRepeat(@NonNull final Animator animator) {
-            }
-        }).start();
+//        this.prgfri.setAlpha(0);
+//        this.prgfri.animate().setDuration(1500).alpha(1).setListener(new Animator.AnimatorListener() {
+//            @Override
+//            public void onAnimationStart(@NonNull final Animator animator) {
+//            }
+//
+//            @Override
+//            public void onAnimationEnd(@NonNull final Animator animator) {
+//
+//            }
+//
+//            @Override
+//            public void onAnimationCancel(@NonNull final Animator animator) {
+//            }
+//
+//            @Override
+//            public void onAnimationRepeat(@NonNull final Animator animator) {
+//            }
+//        }).start();
     }
 
     public void UI() {
