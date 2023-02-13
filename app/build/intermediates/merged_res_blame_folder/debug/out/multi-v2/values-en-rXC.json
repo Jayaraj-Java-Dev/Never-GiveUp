@@ -4,7 +4,7 @@
             "outputFile": "com.jayaraj.CrazyChat7.app-mergeDebugResources-45:/values-en-rXC/values-en-rXC.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-3\\4c83654151bce1705ee6295289dfa83e\\transformed\\preference-1.2.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-3\\95eb994296835fc1ca3bba8d3af60d0d\\transformed\\preference-1.2.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8",
                         "startColumns": "4,4,4,4,4,4,4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-3\\3fe6be760034ce8a713a0fd9611136e9\\transformed\\appcompat-1.6.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-3\\a6b03e9565c8b0d6fb39062f6c219581\\transformed\\appcompat-1.6.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
@@ -38,7 +38,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-3\\ebfed7609b82ebb939b3ff3ef25acfeb\\transformed\\browser-1.4.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-3\\81da96d9a56b8af69e075957ffe31352\\transformed\\browser-1.4.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2,3,4,5",
                         "startColumns": "4,4,4,4",
@@ -55,7 +55,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-3\\159406b72381554ae52e5d3938990e03\\transformed\\core-1.9.0\\res\\values-en-rXC\\values-en-rXC.xml",
+                    "source": "C:\\Users\\HP\\.gradle\\caches\\transforms-3\\6c6dc5282c30559f819c8c983bba1959\\transformed\\core-1.9.0\\res\\values-en-rXC\\values-en-rXC.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

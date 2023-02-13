@@ -1,7 +1,5 @@
 package com.jayaraj.CrazyChat7.HomeActs;
 
-import android.animation.Animator;
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
@@ -23,19 +21,15 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.google.android.gms.tasks.OnCompleteListener;
-import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.firestore.CollectionReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
-import com.google.firebase.firestore.QuerySnapshot;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import com.jayaraj.CrazyChat7.ChatHomeActs.ChathomeActivity;
 import com.jayaraj.CrazyChat7.ImageVidDispActs.ImgfullActivity;
 import com.jayaraj.CrazyChat7.J.Jay;
-import com.jayaraj.CrazyChat7.OtherActs.ChatHomeProfileActivity;
 import com.jayaraj.CrazyChat7.R;
 
 import java.util.ArrayList;
@@ -124,8 +118,6 @@ public class FriendsFragment extends Fragment {
         this.frilay.setVisibility(View.VISIBLE);
         this.loadfriends();
     }
-
-    HashMap<String, Object> Verify = new HashMap<>();
 
     private void loadrequests() {
         this.notice.setVisibility(View.GONE);
@@ -297,7 +289,7 @@ public class FriendsFragment extends Fragment {
 
     class ArrayAdapterList1 extends RecyclerView.Adapter<RecyclerView.ViewHolder> {
 
-        ArrayList<HashMap<String, Object>> arrayList = new ArrayList<>();
+        ArrayList<HashMap<String, Object>> arrayList;
 
         Jay jay;
 
